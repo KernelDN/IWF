@@ -1,0 +1,50 @@
+@font-face {
+    font-family: inter;
+    src: url('../fonts/inter.ttf');
+}
+
+* {
+    color: #111;
+    font-family: inter;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+html, body, .container-fluid, #main-row, #main-left, #main-right {
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: #fff;
+}
+
+#main-left {
+    background-image: url('../img/sun.jpg');
+    background-size: auto 120%;
+    background-position: top;
+}
+
+.overlay {
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    z-index: 1;
+    top: 0; left: 0;
+    right: 0; bottom: 0;
+}
+
+#temp {
+    position: relative;
+    color: #fff;
+    font-size: 7em;
+    text-align: center;
+    margin-top: 1em;
+    z-index: 2;
+}
+
+#main-right {
+    background-color: #e6e6e6;
+}

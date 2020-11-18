@@ -4,7 +4,7 @@
 }
 
 * {
-    color: #111;
+    color: #000;
     font-family: inter;
 }
 
@@ -47,4 +47,51 @@ html, body, .container-fluid, #main-row, #main-left, #main-right {
 
 #main-right {
     background-color: #e6e6e6;
+}
+
+.icons, .clima {
+    margin-top: 2em;
+}
+
+.icons {
+    width: 7em;
+    height: 7em;
+    float: right;
+    filter: invert(72%) sepia(11%) saturate(5254%) hue-rotate(325deg) brightness(94%) contrast(90%);
+}
+
+.icons2 {
+    width: 5em;
+    height: 5em;
+    float: right;
+    filter: invert(72%) sepia(11%) saturate(5254%) hue-rotate(325deg) brightness(94%) contrast(90%);
+}
+
+.clima2 {
+    text-align: left;
+    font-size: 1.3em;
+    margin-top: 1em;
+}
+
+.clima {
+    margin-top: 3.3em;
+    text-align: left;
+    font-size: 1.5em;
+}
+
+input, button {
+    margin-top: 3em;
+}
+
+input[type="text"] {
+    background-color: rgba(0,0,0,0.0);
+    border: none;
+    border-bottom: 2px solid #E6854C;
+    border-radius: 0;
+}
+
+input[type="text"]:focus {
+    background-color: rgba(0,0,0,0.0);
+    border-color: #E6854C;
+    box-shadow: none;
 }

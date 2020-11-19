@@ -4,7 +4,7 @@
 }
 
 * {
-    color: #000;
+    color: #fafafa;
     font-family: inter;
 }
 
@@ -18,14 +18,10 @@ html, body, .container-fluid, #main-row, #main-left, #main-right {
     height: 100%;
 }
 
-.container-fluid {
-    background-color: #fff;
-}
-
 #main-left {
     background-image: url('../img/sun.jpg');
-    background-size: auto 120%;
-    background-position: top;
+    background-size: 100% auto;
+    background-position: center;
 }
 
 .overlay {
@@ -36,21 +32,41 @@ html, body, .container-fluid, #main-row, #main-left, #main-right {
     right: 0; bottom: 0;
 }
 
-#temp {
+#temp, #clima, #cidade {
     position: relative;
     color: #fff;
-    font-size: 7em;
+    font-size: 1.5em;
     text-align: center;
-    margin-top: 1em;
     z-index: 2;
 }
 
+#temp {
+    font-size: 7em;
+    margin-top: 1em;
+    margin-left: 0.4em;
+}
+
+#clima {
+    margin-top: -1em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#cidade {
+    margin-top: -1em;
+    font-size: 0.8em;
+}
+
 #main-right {
-    background-color: #e6e6e6;
+    background-color: #1a1a1a;
+}
+
+.max-min {
+    margin-top: 3em;
 }
 
 .icons, .clima {
-    margin-top: 2em;
+    margin-top: 3em;
 }
 
 .icons {
